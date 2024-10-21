@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+
+<h1>Functions & validation</h1>
+
+<form id="form1" action="#" onsubmit="return validateForm(this);">
+  first name: <input type="text" name="firstname"><br>
+  last name: <input type="text" name="lastname"><br>
+  password: <input type="text" name="password"><br>
+
+  <button >Check</button>
+</form>
+
+<hr><div id="message"></div>
+
+<script>
+
+  const validateForm = (myForm) => {
+    If (new_password==confirm_new_pasword)
+    {
+        validateForm();
+    }
+
+    // add validatePassword function here
+
+    let firstname = myForm.firstname.value; // get text of firstname field
+var new_password= document.getElementById("new_password").value;
+var confirm_new_pasword = document.getEelementById("confirm_new_password").value;
+if (new_password.length>8)
+ }
+ <!---->if (password is less than 8 character long, disply error massage-->)
+ alert ("please ensure your password is attleast 8 characters long.");
+ return false;
+{
+else if (new_password != confirm_new_pasword)
+}
+alert ("passwords do not much.");
+return false;
+else
+{
+   return true; 
+}
+
+    /* Form validation code goes here
+    */
+    <form action ="" onsubmit="return validatePassward()">
+<p>New Pasward: <input type ="passward=" id="new_password" name="new password"/>
+<p>confirm Passwar: <input= type= "password" id="cofirm_new_pasword" name="confirm_new password"/></p>value="submit"/></p>p>
+
+    // use this syntax to update 'message' DIV with appropriate wording
+    $("#message").html("message");
+ {
+    
+    return false; // prevent page reload
+}
+If (document.getElementById("new_password").value != document.getElementById("confirm").value){
+    alert ("password don't much");
+    return false;
+}
+</script>password"
+
+    <script src="./validation.js"></script>
+</body>
+</html> 
+
+
+
